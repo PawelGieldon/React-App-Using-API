@@ -7,6 +7,7 @@ This is an app that can generate a hundreds photos of dogs. It is also fully res
 
 ## Technologies
 * Visual Studio Code
+* React
 * Languages( CSS, HTML, JAVASCRIPT)
 
 

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, rgba(199,198,217,1) 0%, rgba(175,175,215,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+main {
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  padding: 20px;
+  
+}
+
+.header-image {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.paragraph {
+  
+  font-weight: 700;
+  font-size: larger;
+  color: black;
+  
+}
+
+.left-text {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.right-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+
+.button-form {
+  display: block;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+
+
+.dog-image {
+  max-width: 100%;
+  border-radius: 10px;
+  height: 400px;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+
+  .dog-image{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .dog-image{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
